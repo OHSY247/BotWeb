@@ -1,3 +1,4 @@
+
 const headerMenuConfig = [];
 
 const asideMenuConfig = [
@@ -8,15 +9,15 @@ const asideMenuConfig = [
     children: [
       {
         name: '分析页面',
-        path: '/dashboard/analysis',
+        path: '/fusion/dashboard/analysis',
       },
       {
         name: '监控页面',
-        path: '/dashboard/monitor',
+        path: '/fusion/dashboard/monitor',
       },
       {
         name: '工作台',
-        path: '/dashboard/workplace',
+        path: '/fusion/dashboard/workplace',
       },
     ],
   },
@@ -27,39 +28,39 @@ const asideMenuConfig = [
     children: [
       {
         name: '单列表单',
-        path: '/form/basic',
+        path: '/fusion/form/basic',
       },
       {
         name: '两列表单',
-        path: '/form/two',
+        path: '/fusion/form/two',
       },
       {
         name: '三列表单',
-        path: '/form/three',
+        path: '/fusion/form/three',
       },
       {
         name: '四列表单',
-        path: '/form/four',
+        path: '/fusion/form/four',
       },
       {
         name: '分步表单',
-        path: '/form/step',
+        path: '/fusion/form/step',
       },
       {
         name: '分类表单',
-        path: '/form/classified',
+        path: '/fusion/form/classified',
       },
       {
         name: '分组表单',
-        path: '/form/group',
+        path: '/fusion/form/group',
       },
       {
         name: '流程表单',
-        path: '/form/flow',
+        path: '/fusion/form/flow',
       },
       {
         name: '分级表单',
-        path: '/form/hierarchical',
+        path: '/fusion/form/hierarchical',
       },
     ],
   },
@@ -70,15 +71,15 @@ const asideMenuConfig = [
     children: [
       {
         name: '基础列表',
-        path: '/list/basic',
+        path: '/fusion/list/basic',
       },
       {
         name: '卡片列表',
-        path: '/list/card',
+        path: '/fusion/list/card',
       },
       {
         name: '表格列表',
-        path: '/',
+        path: '/fusion/',
         children: [
           {
             name: '基础过滤',
@@ -123,11 +124,11 @@ const asideMenuConfig = [
     children: [
       {
         name: '基础详情',
-        path: '/detail/basic',
+        path: '/fusion/detail/basic',
       },
       {
         name: '高级详情',
-        path: '/detail/advanced',
+        path: '/fusion/detail/advanced',
       },
     ],
   },
@@ -138,23 +139,23 @@ const asideMenuConfig = [
     children: [
       {
         name: '成功页面',
-        path: '/feedback/success',
+        path: '/fusion/feedback/success',
       },
       {
         name: '失败页面',
-        path: '/feedback/fail',
+        path: '/fusion/feedback/fail',
       },
       {
         name: '403',
-        path: '/feedback/403',
+        path: '/fusion/feedback/403',
       },
       {
         name: '404',
-        path: '/feedback/404',
+        path: '/fusion/feedback/404',
       },
       {
         name: '500',
-        path: '/feedback/500',
+        path: '/fusion/feedback/500',
       },
     ],
   },
@@ -165,11 +166,11 @@ const asideMenuConfig = [
     children: [
       {
         name: '系统设置',
-        path: '/settings',
+        path: '/fusion/settings',
       },
       {
         name: '个人设置',
-        path: '/person',
+        path: '/fusion/person',
       },
     ],
   },
@@ -180,11 +181,11 @@ const asideMenuConfig = [
     children: [
       {
         name: '登录',
-        path: '/user/login',
+        path: '/fusion/user/login',
       },
       {
         name: '注册',
-        path: '/user/register',
+        path: '/fusion/user/register',
       },
     ],
   },

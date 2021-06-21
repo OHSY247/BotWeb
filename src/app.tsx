@@ -12,5 +12,20 @@ const appConfig: IAppConfig = {
       <LocaleProvider locale={locale}>{children}</LocaleProvider>
     ),
   },
+  router: {
+    // ...
+  },
+  
+  // store: {
+  //   // ...
+  // },
+
+  request: {
+    // ...
+  },
+  logger: {
+    // ...
+    level : 'info'
+  },
 };
 runApp(appConfig);
