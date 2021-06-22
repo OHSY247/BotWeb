@@ -1,6 +1,5 @@
 {
-  // "homepage": "https://ohsy247.github.io/BotWeb",
-  "homepage": "./",
+  "homepage": "https://github.com/OHSY247/BotWeb/",
   "name": "BotWeb",
   "version": "0.1.0",
   "description": "使用 TypeScript，包含大量 UI 区块，比如图表、表单等。",
