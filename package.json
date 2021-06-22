@@ -34,7 +34,7 @@
     "webpack": "^5.0.0"
   },
   "scripts": {
-    "predeploy":"npm run build",
+    "predeploy":"icejs build",
     "deploy":"gh-pages -d build",
     "start": "icejs start",
     "build": "icejs build",
