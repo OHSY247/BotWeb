@@ -1,4 +1,5 @@
 {
+  "publicPath": "./",
   "customWebpack": true,
   "plugins": [
     [
